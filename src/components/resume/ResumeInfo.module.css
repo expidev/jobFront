@@ -1,0 +1,36 @@
+
+.fieldset {
+    margin-bottom: 20px;
+}
+
+
+.btnGroup {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.logoButton {
+    display: block;
+    width: 200px;
+    height: 34px;
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 5px 0;
+    text-align: center;
+    background-color: rgba(153, 102, 7, 0.904);
+    color: white;
+    cursor: pointer;
+}
+
+.logoInput {
+    display: none;
+}
+
+.coverPhoto {
+    float: right;
+    object-fit: cover;
+    width: 100px;
+    height: 100px;
+}

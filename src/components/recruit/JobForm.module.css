@@ -1,0 +1,38 @@
+
+.btnGroup {
+    display: flex;
+    justify-content: right;
+    margin-top: 40px;
+    gap: 2px;
+}
+
+
+.submit {
+    width: 100%;
+    background-color: blueviolet;
+    color: white;
+    margin-top: 20px;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 2px 2px #808080;
+    cursor: pointer;
+}
+
+.rearrangement {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px grey solid;
+    cursor: move;
+}
+
+.upAndDown {
+    display: flex;
+    flex-direction: column;
+}
+
+.artBtn {
+    background-color: transparent;
+    border: none;
+}

@@ -1,0 +1,12 @@
+
+.jobItem {
+    max-width: 800px;
+    margin: 1.5em auto;
+    padding: 0;
+    cursor: pointer;
+    background-color: white;
+}
+
+.jobItem:hover {
+    background-color: hsl(0, 0%, 70%);
+}

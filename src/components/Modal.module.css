@@ -1,0 +1,28 @@
+.modalOverlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    padding: 60px 0;
+    background-color: rgba(50, 50, 50, 0.6);
+}
+
+.modalContainer {
+    border-radius: 5px;
+    box-shadow: 1px 1px #b3b3b3, -1px -1px #b3b3b3 ;
+    background-color: white;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 25px;
+}
+
+.modalTitle {
+    text-align: center;
+    border-bottom: 1px #0fb155 solid;
+}
+
+.modalContent {
+    background: white;
+    padding: 2px;
+}

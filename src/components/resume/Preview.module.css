@@ -1,0 +1,46 @@
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.leftHead {
+    text-align: center;
+    width: calc(100% - 120px);
+}
+
+.avatar {
+    object-fit: cover;
+    padding: 2px;
+    width: 120px;
+    height: 120px;
+    border: none;
+    box-shadow: 2px -2px lightslategray, -2px 2px lightslategray;
+}
+
+.titleWithDate {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.heading1 {
+    margin-bottom: 0;
+}
+
+.heading2, .date {
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.place {
+    font-style: italic;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.line {
+    margin: 0;
+    padding: 0;
+}

@@ -1,0 +1,16 @@
+.defaultCoverPhoto {
+    float: left;
+    width: 100px;
+    height: 100px;
+    margin-right: 50px;
+}
+
+.messageContainer {
+    overflow: auto;
+    padding: 1em;
+}
+
+.messageContainer:hover {
+    cursor: pointer;
+    background-color: hsl(0, 0%, 70%);
+}

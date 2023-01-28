@@ -1,0 +1,22 @@
+
+.formNavigation {
+    display: flex;
+    gap: 3px;
+    margin: 0 0 40px 0;
+    padding: 0;
+    list-style-type: none;
+    
+}
+
+.formNavButton{
+    background-color: hsl(0, 0%, 95%);
+    font-weight: lighter;
+    border: none;
+    font-size: 1em;
+    padding: 0.5em;
+    cursor: pointer;
+}
+
+.formNavButton:hover, .active {
+    box-shadow: 0px 2px #808080;
+}
