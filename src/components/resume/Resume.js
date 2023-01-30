@@ -71,8 +71,8 @@ export default function Resume() {
                 content: languageInfo
             }
         ];
-        setTrackChange(prev => !prev);
         JobApi.updateResumeById(id, updatedResumeInfo);
+        setTrackChange(prev => !prev);
     }
 
     const addExperienceSection = (e) => {
