@@ -1,3 +1,3 @@
 export const avatar = {
-    img: `${window.location.origin}/assets/avatar.png`
+    img: 'https://eclectic-cucurucho-5684dc.netlify.app/assets/avatar.png'
 }

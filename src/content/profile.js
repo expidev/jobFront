@@ -1,4 +1,4 @@
 export const profile = {
-    image: `${window.location.origin}/assets/profile.jpeg`,
+    image: 'https://eclectic-cucurucho-5684dc.netlify.app/assets/profile.jpeg',
     description: "My profile picture"
 }
