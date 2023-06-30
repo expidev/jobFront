@@ -10,7 +10,7 @@ class JobApi {
             method: 'GET',
         }
         try {
-            let response = await fetch(`https://jobback.onrender.com/api/v1/jobs/${query}`, option);
+            let response = await fetch(`https://jobback-nel0.onrender.com/api/v1/jobs/${query}`, option);
             return await response.json();
         } catch(err) {
             console.log(err);
@@ -27,7 +27,7 @@ class JobApi {
                 },
                 body: JSON.stringify(resume)
             }
-            let response = await fetch('https://jobback.onrender.com/api/v1/resume', options);
+            let response = await fetch('https://jobback-nel0.onrender.com/api/v1/resume', options);
             return await response.json();
         } catch(err) {
             console.log(err);
@@ -36,7 +36,7 @@ class JobApi {
 
     async getResumeList() {
         try {
-            let response = await fetch(`https://jobback.onrender.com/api/v1/resume`, {
+            let response = await fetch(`https://jobback-nel0.onrender.com/api/v1/resume`, {
                 method: 'GET'
             });
             return await response.json();
@@ -47,7 +47,7 @@ class JobApi {
 
     async getResumeById(id) {
         try {
-            let response = await fetch(`https://jobback.onrender.com/api/v1/resume/${id}`, {
+            let response = await fetch(`https://jobback-nel0.onrender.com/api/v1/resume/${id}`, {
                 method: 'GET'
             });
             return await response.json();
@@ -58,7 +58,7 @@ class JobApi {
 
     async updateResumeById(id, data) {
         try {
-            let response = await fetch(`https://jobback.onrender.com/api/v1/resume/${id}`, {
+            let response = await fetch(`https://jobback-nel0.onrender.com/api/v1/resume/${id}`, {
                 method: 'PUT',
                 headers: {
                     'Accept': 'application/json',
@@ -86,7 +86,7 @@ class JobApi {
                 },
                 body: JSON.stringify({id}),
             }
-            let response = await fetch(`https://jobback.onrender.com/api/v1/jobs/`, options);
+            let response = await fetch(`https://jobback-nel0.onrender.com/api/v1/jobs/`, options);
             return await response.json();
         } catch(err) {
             console.log(err);
@@ -103,7 +103,7 @@ class JobApi {
                 },
                 body: JSON.stringify(job)
             }
-            let response = await fetch('https://jobback.onrender.com/api/v1/jobs', options);
+            let response = await fetch('https://jobback-nel0.onrender.com/api/v1/jobs', options);
             return await response.json();
         } catch(err) {
             console.log(err);
