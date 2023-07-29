@@ -24,7 +24,7 @@ export default function JobList(props) {
               setJobList(data)
             }
         });
-    }, [trackChange]);
+    }, [trackChange, props.saved]);
 
     const saveJob = async (id) => {
         setTrackChange(prev => !prev);

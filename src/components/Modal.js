@@ -7,7 +7,7 @@ export default function Modal(props) {
 
     const getStyleValue = useCallback((computedStyle, key) => {
         return parseInt(computedStyle[key], 10) || 0;
-    });
+    }, []);
 
     useEffect(() => {
         if (props.isOpen) {

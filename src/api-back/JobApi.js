@@ -115,7 +115,9 @@ class JobApi {
     }
 }
 
-export default new JobApi();
+const jobApi = new JobApi()
+
+export default jobApi;
 
 function getLS(key)  {
     return JSON.parse(localStorage.getItem(key));
