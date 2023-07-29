@@ -17,7 +17,7 @@ export default function ExperienceEducation(props) {
         Array.from(document.querySelectorAll('textarea')).forEach(item => {
             props.handleAutosizeTextarea(item);
         });
-    }, [props.handleAutosizeTextarea]);
+    }, [props]);
 
     const handleChange = (e) => {
         const index =  Number(e.target.dataset.index);
