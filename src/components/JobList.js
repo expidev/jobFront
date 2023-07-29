@@ -27,8 +27,8 @@ export default function JobList(props) {
     }, [trackChange, props.saved]);
 
     const saveJob = async (id) => {
-        setTrackChange(prev => !prev);
         await JobApi.saveJob(id);
+        setTrackChange(prev => !prev);
     };
 
     const handleClick = (e, item) => {
